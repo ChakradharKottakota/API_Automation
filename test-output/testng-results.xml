@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4929" started-at="2018-04-03T07:46:56Z" finished-at="2018-04-03T07:47:01Z">
+  <suite name="Default suite" duration-ms="3578" started-at="2018-04-03T08:50:10Z" finished-at="2018-04-03T08:50:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4929" started-at="2018-04-03T07:46:56Z" finished-at="2018-04-03T07:47:01Z">
+    <test name="Default test" duration-ms="3578" started-at="2018-04-03T08:50:10Z" finished-at="2018-04-03T08:50:13Z">
       <class name="com.cc.api.automation.steps.AddNewBusinessService">
-        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="initateExtentManager" is-config="true" duration-ms="333" started-at="2018-04-03T13:16:56Z" finished-at="2018-04-03T13:16:56Z">
+        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="initateExtentManager" is-config="true" duration-ms="409" started-at="2018-04-03T14:20:10Z" finished-at="2018-04-03T14:20:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initateExtentManager -->
-        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="login_to_application" duration-ms="2818" started-at="2018-04-03T13:16:56Z" finished-at="2018-04-03T13:16:59Z">
+        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="login_to_application" duration-ms="2336" started-at="2018-04-03T14:20:10Z" finished-at="2018-04-03T14:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_to_application -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-04-03T13:16:59Z" finished-at="2018-04-03T13:16:59Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-04-03T14:20:13Z" finished-at="2018-04-03T14:20:13Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="addNewBusinessService()[pri:2, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="addNewBusinessService" duration-ms="1322" started-at="2018-04-03T13:16:59Z" finished-at="2018-04-03T13:17:00Z">
+        <test-method status="PASS" signature="addNewBusinessService()[pri:2, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="addNewBusinessService" duration-ms="426" started-at="2018-04-03T14:20:13Z" finished-at="2018-04-03T14:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewBusinessService -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-03T13:17:00Z" finished-at="2018-04-03T13:17:00Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-03T14:20:13Z" finished-at="2018-04-03T14:20:13Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="tear" is-config="true" duration-ms="421" started-at="2018-04-03T13:17:00Z" finished-at="2018-04-03T13:17:01Z">
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.cc.api.automation.steps.AddNewBusinessService@49fc609f]" name="tear" is-config="true" duration-ms="364" started-at="2018-04-03T14:20:13Z" finished-at="2018-04-03T14:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
