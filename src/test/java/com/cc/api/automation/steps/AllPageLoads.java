@@ -20,9 +20,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.multipart.FormDataMultiPart;
 
-public class AddNewBusinessService {
+public class AllPageLoads {
 	static NewCookie cook;
 	LoginPost lgoin = new LoginPost();
 	Get get = new Get();
@@ -59,54 +58,70 @@ public class AddNewBusinessService {
 
 	}
 	@Test(priority =2)
-	public void addNewBusinessService(){
-		
-				
-		@SuppressWarnings("resource")
-		FormDataMultiPart formData = new FormDataMultiPart();
-		formData.field("url", "https://www.gmail.com");
-		formData.field("name", "TestNow");
-		formData.field("group", "TestNow");
-		formData.field("sub_group", "TestNow");
-		formData.field("email_Id", "test@test.com");
-		formData.field("interval", "Minutes");
-		formData.field("repeat_every", "2");
-		
+	public void cc_dashboard() {
 		testdatamap = FilloExcelUtility.readExcel();
-		test = ExtentManager.loggerInstance(extent, " Test case: AddNewBusinessService");
+		test = ExtentManager.loggerInstance(extent, " Test case: Load Dashboard Page");
 
-		String addNewBusinessServiceUrl = testdatamap.get("addNewBusinessServiceUrl");
-		System.out.println("addNewBusinessServiceUrl=" + addNewBusinessServiceUrl);
+		String dashboardurl = testdatamap.get("dashboardurl");
+		System.out.println("Dashboard Url=" + dashboardurl);
+		logPassStatus("Dashboard page loaded");
 		
-		String url = testdatamap.get("url");
-		System.out.println("url=" + url);
-		String name = testdatamap.get("name");
-		System.out.println("name==" + name);
-		String group = testdatamap.get("group");
-		System.out.println("group==" + group);
-		String sub_group = testdatamap.get("sub_group");
-		System.out.println("sub_group==" + sub_group);
-		String email_Id = testdatamap.get("email_Id");
-		System.out.println("email_Id==" + email_Id);
-		String interval = testdatamap.get("interval");
-		System.out.println("interval==" + interval);
-		int repeat_every =Integer.parseInt( testdatamap.get("repeat_every"));
-		System.out.println("repeat_every==" + repeat_every);
-		
-		
-		String postparam = "{\"url\":\"" + url + "\",\"name\":\"" + name + "\",\"group\":\"" + group + "\",\"sub_group\":\"" + sub_group + "\",\"email_Id\":\"" + email_Id + "\",\"interval\":\"" + interval + "\",\"repeat_every\":2 }";
-		logPassStatus("New Businesss Service has been added successfully");
-			
-		System.out.println(postparam);
-		
-		
-		Post postcall = new Post();
-
-		response = postcall.getPostByJersey(addNewBusinessServiceUrl, postparam,cook);
+		Get getcall =new Get();
+		response = getcall.getRestServiceMethod(dashboardurl, cook);
 		System.out.println(response);
-		
 	}
+	@Test(priority =3)
+	public void cc_alert() {
+		testdatamap = FilloExcelUtility.readExcel();
+		test = ExtentManager.loggerInstance(extent, " Test case: Load Alert Page");
 
+		String alerturl = testdatamap.get("alerturl");
+		System.out.println("Alert Url=" + alerturl);
+		logPassStatus("Alert page loaded");
+		
+		Get getcall =new Get();
+		response = getcall.getRestServiceMethod(alerturl, cook);
+		System.out.println(response);
+	}
+	@Test(priority =4)
+	public void cc_cmdb() {
+		testdatamap = FilloExcelUtility.readExcel();
+		test = ExtentManager.loggerInstance(extent, " Test case: Load Cloud CMDB Page");
+
+		String cmdburl = testdatamap.get("cmdburl");
+		System.out.println("CMDB Url=" + cmdburl);
+		logPassStatus("Cloud CMDB page loaded");
+		
+		Get getcall =new Get();
+		response = getcall.getRestServiceMethod(cmdburl, cook);
+		System.out.println(response);
+	}
+	@Test(priority =5)
+	public void cc_itsm() {
+		testdatamap = FilloExcelUtility.readExcel();
+		test = ExtentManager.loggerInstance(extent, " Test case: Load ITSM-ServiceNow Page");
+
+		String itsmurl = testdatamap.get("itsmurl");
+		System.out.println("ITSM Url=" + itsmurl);
+		logPassStatus("ITSM-ServiceNow page loaded");
+		
+		Get getcall =new Get();
+		response = getcall.getRestServiceMethod(itsmurl, cook);
+		System.out.println(response);
+	}
+	@Test(priority =6)
+	public void cc_services() {
+		testdatamap = FilloExcelUtility.readExcel();
+		test = ExtentManager.loggerInstance(extent, " Test case: Load Services Page");
+
+		String servicesurl = testdatamap.get("servicesurl");
+		System.out.println("Services Url=" + servicesurl);
+		logPassStatus("Services page loaded");
+		
+		Get getcall =new Get();
+		response = getcall.getRestServiceMethod(servicesurl, cook);
+		System.out.println(response);
+	}
 	
 	
     public void logPassStatus(String statusMsg) {
@@ -130,4 +145,5 @@ public class AddNewBusinessService {
 		}
 
 	}
+
 }

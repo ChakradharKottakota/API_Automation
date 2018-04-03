@@ -1,15 +1,31 @@
 <suite name="Automation" verbose="1">
- 
- 
- <test name="Add New Business Service">
+
+
+<test name="Command Center PageLoad">
  <classes>
 		
-			
-			
-			<class name="com.cc.api.automation.steps.AddNewBusinessService" />
+			<class name="com.cc.api.automation.steps.AllPageLoads" />
+			<methods>
+			    <include name="login_to_application"/>
+			    <include name="cc_dashboard"/>
+				<include name="cc_alert"/>
+				<include name="cc_cmdb"/>
+				<include name="cc_itsm"/>
+				<include name="cc_services"/>
+				
+				
+			</methods>
+		</classes>
+ 
+ </test>
+ <test name="Add New Business Service">
+ <classes>
+ 
+		<class name="com.cc.api.automation.steps.AddNewBusinessService" />
 			<methods>
 				<include name="login_to_application"/>
-				<include name="addNewBusinessService"/>
+				<include name="addNewBusinessService"/> 
+				
 			</methods>
 		</classes>
  
