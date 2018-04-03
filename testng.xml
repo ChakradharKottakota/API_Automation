@@ -1,0 +1,138 @@
+<suite name="Automation" verbose="1">
+ 
+ 
+ <test name="Add New Business Service">
+ <classes>
+		
+			
+			
+			<class name="com.cc.api.automation.steps.AddNewBusinessService" />
+			<methods>
+				<include name="login_to_application"/>
+				<include name="addNewBusinessService"/>
+			</methods>
+		</classes>
+ 
+ 
+ </test>
+ 
+<!-- <test name="Test ALL Possible Logins">
+		<classes>
+		
+			<class name="com.dw.api.automation.TestScripts.LoginTest" />
+			<methods>
+				<include name="loginAsPM"/>
+				<include name="loginAsBAM" />
+				<include name="loginAsCA"/>
+					</methods>
+		</classes>
+</test>
+
+
+<test name="AddcNew Partner Org Test">
+		<classes>
+		
+			<class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="verifyMpnId" />
+				<include name="addNewPartnerOrganisation"/>
+				<include name="approveNewOrgByBAM"/>
+				<include name="approveNewOrgByCA"/>
+					</methods>
+		</classes>
+</test>
+
+ 
+ <test name="Customer On Boarding ">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="verifyMpnId" />
+				<include name="addNewPartnerOrganisation"/>
+				<include name="approveNewOrgByBAM"/>
+				<include name="approveNewOrgByCA"/>
+				<include name="createNewCustomer"/>
+				<include name="getCustomerId" />
+				<include name="approveNewCustomerFromBam"/>
+			</methods>
+		</classes>
+</test>
+
+ 
+ <test name="Market Place And Contract Management">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="addBaseProductWithTwoLicenses" />
+				<include name="addAddOnProductWithOneLicenses"/>
+				<include name="placeOrder"/>
+				
+			</methods>
+		</classes>
+</test>
+
+ <test name="Order Provision">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.OrderProvisonTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="orderProvisionForBaseProduct" />
+				<include name="orderProvisionForAddOnProduct" />
+						
+			</methods>
+		</classes>
+</test>
+
+
+ <test name="Place Order With Coupan Code">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="verifyMpnId"/>
+				<include name="addNewPartnerOrganisation"/>
+				<include name="approveNewOrgByBAM"/>
+				<include name="approveNewOrgByCA"/>
+				<include name="createNewCustomer"/>
+				<include name="getCustomerId"/>
+				<include name="approveNewCustomerFromBam"/>
+				<include name="createCoupan"/>
+				<include name="getCouponCode"/>
+				<include name="addBaseProductWithTwoLicenses"/>
+				<include name="addAddOnProductWithOneLicenses"/>
+				
+				
+			</methods>
+		</classes>
+</test>
+
+<test name="Place Order With Vat  Coupan Code">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="verifyMpnId"/>
+				<include name="addNewPartnerOrganisationWithVat"/>
+				<include name="approveNewOrgByBAM"/>
+				<include name="approveNewOrganisationByCAwithVAT"/>
+				<include name="createNewCustomer"/>
+				<include name="getCustomerId"/>
+				<include name="approveNewCustomerFromBam"/>
+				<include name="addBaseProductWithTwoLicenses"/>
+				<include name="createCoupan"/>
+				<include name="placeOrder"/>
+				
+				
+				
+			</methods>
+		</classes>
+</test>
+ -->
+
+
+ 
+
+</suite> 

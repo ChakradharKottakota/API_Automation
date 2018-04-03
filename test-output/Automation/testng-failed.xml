@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]">
+  <test name="Add New Business Service(failed)">
+    <classes>
+      <class name="com.cc.api.automation.steps.TestClass">
+        <methods>
+          <include name="login_to_application"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.cc.api.automation.steps.TestClass -->
+    </classes>
+  </test> <!-- Add New Business Service(failed) -->
+</suite> <!-- Failed suite [Automation] -->

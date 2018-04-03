@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.cc.api.automation.steps.AddNewBusinessService">
+        <methods>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+          <include name="login_to_application"/>
+        </methods>
+      </class> <!-- com.cc.api.automation.steps.AddNewBusinessService -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

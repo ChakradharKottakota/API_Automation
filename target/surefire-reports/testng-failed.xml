@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Automation]">
+  <test name="Test ALL Possible Logins(failed)">
+    <classes>
+      <class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest -->
+      <class name="com.dw.api.automation.TestScripts.OrderProvisonTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.OrderProvisonTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithVatTest -->
+      <class name="com.dw.api.automation.TestScripts.LoginTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="loginAsPM"/>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="loginAsBAM"/>
+          <include name="loginAsCA"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.LoginTest -->
+      <class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.AddNewPartnerOrgTest -->
+      <class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.CustomerOnBoardingTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest">
+        <methods>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest -->
+    </classes>
+  </test> <!-- Test ALL Possible Logins(failed) -->
+  <test name="AddcNew Partner Org Test(failed)">
+    <classes>
+      <class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest -->
+      <class name="com.dw.api.automation.TestScripts.OrderProvisonTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.OrderProvisonTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithVatTest -->
+      <class name="com.dw.api.automation.TestScripts.LoginTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.LoginTest -->
+      <class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="loginAsPm"/>
+          <include name="verifyMpnId"/>
+          <include name="initateExtentManager"/>
+          <include name="approveNewOrgByCA"/>
+          <include name="addNewPartnerOrganisation"/>
+          <include name="approveNewOrgByBAM"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.AddNewPartnerOrgTest -->
+      <class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.CustomerOnBoardingTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest">
+        <methods>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest -->
+    </classes>
+  </test> <!-- AddcNew Partner Org Test(failed) -->
+  <test name="Customer On Boarding (failed)">
+    <classes>
+      <class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest -->
+      <class name="com.dw.api.automation.TestScripts.OrderProvisonTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.OrderProvisonTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithVatTest -->
+      <class name="com.dw.api.automation.TestScripts.LoginTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.LoginTest -->
+      <class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.AddNewPartnerOrgTest -->
+      <class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest">
+        <methods>
+          <include name="addNewPartnerOrganisation"/>
+          <include name="createNewCustomer"/>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="approveNewCustomerFromBam"/>
+          <include name="approveNewOrgByBAM"/>
+          <include name="approveNewOrgByCA"/>
+          <include name="verifyMpnId"/>
+          <include name="getCustomerId"/>
+          <include name="tear"/>
+          <include name="loginAsPm"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.CustomerOnBoardingTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest">
+        <methods>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest -->
+    </classes>
+  </test> <!-- Customer On Boarding (failed) -->
+  <test name="Market Place And Contract Management(failed)">
+    <classes>
+      <class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest">
+        <methods>
+          <include name="placeOrder"/>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="loginAsPm"/>
+          <include name="addBaseProductWithTwoLicenses"/>
+          <include name="addAddOnProductWithOneLicenses"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest -->
+      <class name="com.dw.api.automation.TestScripts.OrderProvisonTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.OrderProvisonTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithVatTest -->
+      <class name="com.dw.api.automation.TestScripts.LoginTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.LoginTest -->
+      <class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.AddNewPartnerOrgTest -->
+      <class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.CustomerOnBoardingTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest">
+        <methods>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest -->
+    </classes>
+  </test> <!-- Market Place And Contract Management(failed) -->
+  <test name="Order Provision(failed)">
+    <classes>
+      <class name="com.dw.api.automation.TestScripts.OrderProvisonTest">
+        <methods>
+          <include name="orderProvisionForAddOnProduct"/>
+          <include name="orderProvisionForBaseProduct"/>
+          <include name="loginAsPm"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.OrderProvisonTest -->
+      <class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithVatTest -->
+      <class name="com.dw.api.automation.TestScripts.LoginTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.LoginTest -->
+      <class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.AddNewPartnerOrgTest -->
+      <class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.CustomerOnBoardingTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest">
+        <methods>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest -->
+    </classes>
+  </test> <!-- Order Provision(failed) -->
+  <test name="Place Order With Coupan Code(failed)">
+    <classes>
+      <class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest -->
+      <class name="com.dw.api.automation.TestScripts.OrderProvisonTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.OrderProvisonTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithVatTest -->
+      <class name="com.dw.api.automation.TestScripts.LoginTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.LoginTest -->
+      <class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.AddNewPartnerOrgTest -->
+      <class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.CustomerOnBoardingTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest">
+        <methods>
+          <include name="loginAsPm"/>
+          <include name="getCouponCode"/>
+          <include name="createCoupan"/>
+          <include name="tear"/>
+          <include name="approveNewOrgByCA"/>
+          <include name="afterMethod"/>
+          <include name="addAddOnProductWithOneLicenses"/>
+          <include name="getCustomerId"/>
+          <include name="verifyMpnId"/>
+          <include name="addBaseProductWithTwoLicenses"/>
+          <include name="createNewCustomer"/>
+          <include name="approveNewCustomerFromBam"/>
+          <include name="approveNewOrgByBAM"/>
+          <include name="initateExtentManager"/>
+          <include name="addNewPartnerOrganisation"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest -->
+    </classes>
+  </test> <!-- Place Order With Coupan Code(failed) -->
+  <test name="Place Order With Vat  Coupan Code(failed)">
+    <classes>
+      <class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest -->
+      <class name="com.dw.api.automation.TestScripts.OrderProvisonTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.OrderProvisonTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest">
+        <methods>
+          <include name="addNewPartnerOrganisationWithVat"/>
+          <include name="afterMethod"/>
+          <include name="getCustomerId"/>
+          <include name="createNewCustomer"/>
+          <include name="verifyMpnId"/>
+          <include name="loginAsPm"/>
+          <include name="createCoupan"/>
+          <include name="approveNewCustomerFromBam"/>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+          <include name="approveNewOrgByBAM"/>
+          <include name="approveNewOrganisationByCAwithVAT"/>
+          <include name="addBaseProductWithTwoLicenses"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithVatTest -->
+      <class name="com.dw.api.automation.TestScripts.LoginTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.LoginTest -->
+      <class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.AddNewPartnerOrgTest -->
+      <class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.CustomerOnBoardingTest -->
+      <class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest">
+        <methods>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest -->
+    </classes>
+  </test> <!-- Place Order With Vat  Coupan Code(failed) -->
+</suite> <!-- Failed suite [Automation] -->
