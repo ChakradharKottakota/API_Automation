@@ -1,34 +1,37 @@
 package com.cc.api.automation.libs;
 
-import java.io.FileInputStream;
-import java.sql.ResultSet;
 import java.util.HashMap;
 
+import com.cc.api.automation.utils.Configurations;
 import com.codoid.products.exception.FilloException;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
-import com.cc.api.automation.utils.Configurations;
 
 
 public class FilloExcelUtility {
 	
 	
 	/***For Windows***/
-	static String  exceldbloc="E:\\\\BackUp\\\\New API Auto\\\\CommandCenter\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xls";
+	//static String  exceldbloc="E:\\\\BackUp\\\\New API Auto\\\\CommandCenter\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xls";
 	
-	
+	/*Path armtemp = Paths.get("./src/Filesupload/azureTestTemplate.json");
+    Path armTemp = armtemp.toRealPath(LinkOption.NOFOLLOW_LINKS);
+     System.out.println(armTemp);*/
 	//static String  exceldbloc="F:\\\\workspace\\\\backup_only_my_changes\\\\GenesisUIAutomation\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xlsx";
 	
 	
 	/***For  Linux***/
-		//static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
+	static String  exceldbloc="/var/lib/jenkins/jobs/API_Automation/src/test/resources/files/ConfigSheet.xlsx";
 
 	/*For client linux env*/
 	//	static String  exceldbloc="/home/genadmin/workspace/Genesis_API_Automation_new/src/test/resources/files/ConfigSheet.xlsx";
 	
 	
-	public static HashMap<String,String> readExcel()
+    
+    
+    
+	public static HashMap<String,String> readExcel(){
 	{
 	
 	System.out.println("exceldbloc Location="+exceldbloc);	
@@ -83,7 +86,7 @@ public class FilloExcelUtility {
 		//System.out.println("test data="+dataMap.get("login1"));
 		return dataMap;
 	}
-	
+	}
 	//Select Data From Particular Page
 	public static HashMap<String,String> readExcelWithTestName(String page)
 	{

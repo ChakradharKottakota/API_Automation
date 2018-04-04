@@ -14,10 +14,10 @@
     <protocol>https</protocol>
     
     <!-- title of the document -->
-    <documentTitle>Genesis API Testing Report</documentTitle>
+    <documentTitle> API Testing Report</documentTitle>
     
     <!-- report name - displayed at top-nav -->
-    <reportName>Genesis API Testing Report</reportName>
+    <reportName> API Testing Report</reportName>
     
     <!-- report headline - displayed at top-nav, after reportHeadline -->
     <reportHeadline></reportHeadline>
