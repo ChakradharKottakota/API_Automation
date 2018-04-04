@@ -22,7 +22,7 @@ public class FilloExcelUtility {
 	
 	
 	/***For  Linux***/
-	static String  exceldbloc="/var/lib/jenkins/jobs/API_Automation/src/test/resources/files/ConfigSheet.xlsx";
+	static String  exceldbloc="/var/lib/jenkins/workspace/API_Automation/src/test/resources/files/ConfigSheet.xlsx";
 
 	/*For client linux env*/
 	//	static String  exceldbloc="/home/genadmin/workspace/Genesis_API_Automation_new/src/test/resources/files/ConfigSheet.xlsx";
