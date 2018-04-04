@@ -47,7 +47,7 @@ public class ExtentManager {
 			+ "/test-output/Reports";
 	//static String snapShotPath = reportPat + "/Automation-Report";
 	static String snapShotPath = reportPat ;
-	static String testdatafilepath = "src\\test\\resources\\ConfigSheet.xlsx";
+	static String testdatafilepath = "src\\test\\resources\\ConfigSheet.xls";
 	static String configSheet = "Configuration";
 
 	public static synchronized ExtentReports Instance() {
