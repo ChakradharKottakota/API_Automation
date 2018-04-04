@@ -75,7 +75,7 @@ public class ExtentManager {
 			/*For Windows*/
 			//	extent.loadConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml"));
 			/*For Linux**/
-						extent.loadConfig(new File("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/extent-config.xml"));
+						extent.loadConfig(new File("/var/lib/jenkins/jobs/API_Automation/workspace/extent-config.xml"));
 		}
 		System.out.println("extent object value=" + extent);
 		return extent;
