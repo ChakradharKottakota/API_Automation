@@ -55,7 +55,7 @@ public class AddNewBusinessService {
 		cook = lgoin.loginGetPostByJersey(posturl, postparm);
 		System.out.println("Cookie as Token paramter=" + cook);
 		  
-		logPassStatus("login to Application with Userid=relevance/relevance Password=Relevance@123");
+		logPassStatus("User successfully logged into Command Center");
 
 	}
 	@Test(priority =2)
